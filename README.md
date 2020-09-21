@@ -2,8 +2,10 @@
 The gossip protocol has been implemented for group communication and aggregate computation. Here through a simulator, convergence of the algorithms is determined. The algorithms used here are GOSSIP ALGORITHM and PUSH-SUM PROTOCOL. Along with the algorithms, topology also plays a crucial role and the topologies used here are: 1) FULL NETWORK 2) LINE 3)3-D TORUS 4) HONEYCOMB 5) HONEYCOMB WITH RANDOM NEIGHBOURS 6)RANDOM 2-D GRID.
 ## PROJECT REPORT
 The implementation has been done in both Gossip as well as Push-sum algorithms, which covers the following topologies: Line, Fully Connected, Random-2D, 3D Torus, Honeycomb and Random Honeycomb. Below are the findings:
-#TABLE:
-                                                         #GOSSIP (Time in milliseconds)
+##TABLE:
+                                                         
+                                                         
+                                                              ##GOSSIP (Time in milliseconds)
 
                                           
                                               Inputs	LINE	  FULL	  Rand2D	  3DTorus	  Honeycomb	  RandomHoneycomb
@@ -15,8 +17,8 @@ The implementation has been done in both Gossip as well as Push-sum algorithms, 
                                                 5000	389937		-     4250	      3422	    6547	        3172
 
 
-#TABLE:
-                                                                #PUSH-SUM (Time in milliseconds)
+##TABLE:
+                                                                ##PUSH-SUM (Time in milliseconds)
                                                   
                                                   
                                                Inputs	    LINE	  FULL	Rand2D	3DTorus	  Honeycomb	  RandomHoneycomb
