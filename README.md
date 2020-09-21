@@ -3,17 +3,16 @@ The gossip protocol has been implemented for group communication and aggregate c
 ## PROJECT REPORT
 The implementation has been done in both Gossip as well as Push-sum algorithms, which covers the following topologies: Line, Fully Connected, Random-2D, 3D Torus, Honeycomb and Random Honeycomb. Below are the findings:
 #TABLE:
-                                                          GOSSIP (Time in milliseconds)
+                                                         #GOSSIP (Time in milliseconds)
 
-
-
-
-
-
-
-
-
-
+                                          
+                                              Inputs	LINE	  FULL	  Rand2D	  3DTorus	  Honeycomb	  RandomHoneycomb
+                                                50	  5359	  2031	  1734	      1735	    2219	        1875
+                                                100	  11203	  2204	  2328	      1687	    4594	        3110
+                                                500	  58422	  2859	  2156	      2484	    3563	        2672
+                                                1000	81218	  16110	  2844	      4344	    3843	        2813
+                                                2500	173719	507625	5578	      2422	    7047	        3937
+                                                5000	389937		-     4250	      3422	    6547	        3172
 
 
 #TABLE:
@@ -27,26 +26,6 @@ The implementation has been done in both Gossip as well as Push-sum algorithms, 
                                                 1000	    3690	  6562	 1406	   3297	      11313	         2728
                                                 2500			 -       -     1578	   5375	      14297	         4438
                                                 5000			 -       -     2015	  15422	      15578	         4953
-
-
-#NORMAL SCALE-
- 
-
-
-
-
-
- 
-
-
-#LOGARITHMIC SCALE-
-
- 
-
-
-
-
- 
 
 
 #OBSERVATIONS-
